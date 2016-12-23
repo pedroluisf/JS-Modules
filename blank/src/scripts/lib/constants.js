@@ -1,0 +1,1 @@
+export let APPLICATION_NAME = "User List";

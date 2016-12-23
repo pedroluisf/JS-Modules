@@ -1,0 +1,29 @@
+<!doctype HTML>
+<html>
+    <head>
+        <title>Sample App</title>
+        <link rel="stylesheet" href="styles/site.css" />
+        <link rel="stylesheet" href="lib/jquery-ui/themes/ui-darkness/jquery-ui.css"/>
+    </head>
+    <body>
+        <div id="mount">
+            Loading...
+        </div>
+        <!-- PROD -->
+        <script src="lib/requirejs/require.js"></script>
+        <script src="bundle/_vendor.js"></script>
+        <script src="bundle/application.js"></script>
+        <script>
+            requirejs(["application.js"]);
+        </script>
+
+        <!-- DEV
+        <script src="lib/requirejs/require.js"></script>
+        <script src="build/config.js"></script>
+        <script>
+            requirejs(["application"]);
+        </script>
+        -->
+
+    </body>
+</html>

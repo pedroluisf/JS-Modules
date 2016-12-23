@@ -1,0 +1,11 @@
+# Public files
+public/bundle
+public/lib
+public/scripts
+public/styles
+
+# npm dependencies
+node_modules
+
+# Intellij
+.idea

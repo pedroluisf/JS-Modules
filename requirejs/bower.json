@@ -1,0 +1,23 @@
+{
+  "name": "modules_requirejs",
+  "version": "0.0.0",
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "requirejs": "~2.1.22",
+    "jquery": "~2.2.1",
+    "jquery-ui": "~1.11.4",
+    "lodash": "~4.6.1"
+  }
+}

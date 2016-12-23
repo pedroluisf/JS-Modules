@@ -1,0 +1,9 @@
+# Public files
+public/jspm_packages
+public/styles
+
+# npm dependencies
+node_modules
+
+# Intellij
+.idea

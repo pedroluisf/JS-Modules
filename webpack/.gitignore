@@ -1,0 +1,10 @@
+# Public files
+public/*.js
+public/*.css
+public/assets
+
+# npm dependencies
+node_modules
+
+# Intellij
+.idea

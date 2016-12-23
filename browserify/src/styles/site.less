@@ -1,0 +1,25 @@
+@page-width: 400px;
+@background: #1E1E1E;
+@font-color: #C8C8C8;
+@color-accent: #007ACC;
+@color-delete: #FF2F00;
+@font-family: Verdana,arial;
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: @background;
+    color: @font-color;
+    font-family: @font-family;
+    font-size: 12px;
+}
+
+#mount {
+    width: @page-width;
+    margin: auto;
+}
+
+@import "./users.less";

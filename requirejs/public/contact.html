@@ -1,0 +1,28 @@
+<!doctype HTML>
+<html>
+    <head>
+        <title>Sample App</title>
+        <link rel="stylesheet" href="styles/site.css" />
+        <link rel="stylesheet" href="lib/jquery-ui/themes/ui-darkness/jquery-ui.css"/>
+    </head>
+    <body>
+        <h1>CONTACT</h1>
+
+        <!-- PROD -->
+        <script src="lib/requirejs/require.js"></script>
+        <script src="bundle/_vendor.js"></script>
+        <script src="bundle/contact.js"></script>
+        <script>
+            requirejs(["contact.js"]);
+        </script>
+
+        <!-- DEV
+        <script src="lib/requirejs/require.js"></script>
+        <script src="build/config.js"></script>
+        <script>
+            requirejs(["contact"]);
+        </script>
+        -->
+
+    </body>
+</html>
